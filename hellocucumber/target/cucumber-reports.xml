@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="0.207" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Is it Friday yet?" name="Sunday isn't Friday" time="0.019">
+<system-out><![CDATA[
+Given today is Sunday.......................................................passed
+When I ask whether it's Friday yet..........................................passed
+Then I should be told "Nope"................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
