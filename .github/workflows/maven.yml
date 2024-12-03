@@ -29,4 +29,4 @@ jobs:
 
     # Build and Test with Maven
     - name: Build with Maven
-      run: mvn clean package -f "hellocucumber/hellocucumber/pom.xml" -e
+      run: mvn clean package -f "hellocucumber/pom.xml" -e
