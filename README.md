@@ -1,4 +1,5 @@
 # Hellocucumber 🥒
+[![Java CI with Maven](https://github.com/buritbest123/hellocucumber/actions/workflows/maven.yml/badge.svg)](https://github.com/buritbest123/hellocucumber/actions/workflows/maven.yml)
 
 ## 📜 Description
 Hellocucumber is a sample project showcasing the use of **Cucumber** for **Behavior-Driven Development (BDD)**. It uses **Gherkin syntax** to define test scenarios and Java for implementing step definitions. This project demonstrates how to write, execute, and automate tests in a collaborative and user-friendly way.
