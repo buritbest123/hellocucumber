@@ -35,9 +35,9 @@ hellocucumber/
 ---
 
 ## 🛠️ Prerequisites
-- ☕ **Java 8 or higher**
-- 🛠️ **Maven 3.9.9 or higher**
-- 💻 IntelliJ IDEA (or any IDE with Cucumber support)
+- ☕ **Java 17** (as specified in the Maven configuration and GitHub Actions workflow)  
+- 🛠️ **Maven 3.8.1 or higher** (to ensure compatibility with modern Java versions)  
+- 💻 IntelliJ IDEA (or any IDE with Cucumber and Maven support)  
 
 ---
 
@@ -67,6 +67,7 @@ hellocucumber/
 ### Test Reports
 Generated reports can be found in the `target` directory:
 - 🖥️ **HTML Report**: `target/cucumber-reports.html`
+- ![image](https://github.com/user-attachments/assets/af3403fe-4b7f-4a42-ab45-158c45cc7566)
 - 📊 **JSON Report**: `target/cucumber-reports.json`
 
 ---
@@ -99,8 +100,3 @@ public void i_should_be_told(String expectedAnswer) {
     assertEquals(expectedAnswer, actualAnswer);
 }
 ```
-
----
-
-## 📜 License
-This project is licensed under the MIT License.
