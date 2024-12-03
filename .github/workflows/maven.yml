@@ -28,7 +28,7 @@ jobs:
 
     # Build the project with Maven
     - name: Build with Maven
-      run: mvn -B package --file subfolder/pom.xml # -B is for batch mode (no interactive input)
+      run: mvn -B package --file pom.xml # -B is for batch mode (no interactive input)
 
     # Optional: Submit the dependency graph for advanced security insights
     - name: Update dependency graph
